@@ -1,42 +1,42 @@
-# Nobody's Screensaver
+# The Part Only You Can Hold
 
-*On the skill between describing and specifying*
+*On independent thinking across three stages of making a work.*
 
-## Why are we here?
+The question, bluntly: I make things — products, art pieces, installations — and I have enrolled in a programming course in 2026, when systems write working code from a sentence of English and get better every six months. The polite answers feel thin. I don't want to defend the course; I want to describe what survives.
 
-Stated bluntly, the question this essay has to answer is: I make things — practical tools, art pieces — and I have enrolled in a programming course in the year 2026, when systems write working code from a single sentence of English and get better at it roughly every six months. What exactly do I think I am learning?
+For me, the thread worth pulling on is this: to make something genuinely worth making, you need the understanding that only forms when programming experience and design experience meet in the same person and produce their own thing. Almost everything I make with AI follows three stages — finding inspiration, refining it into a structure, producing the finished thing — and underneath each, it is the same: independent thinking, the part the machine cannot do for you.
 
-The polite answers feel thin. "Programming teaches you to think" — so did art school. "Someone has to fix what the machine gets wrong" — the machine gets things wrong less often every semester. A defensive case for this course would be easy to write and worth nothing. I don't want to defend the course. I want to describe, as honestly as I can, what I think survives.
+## Finding inspiration: don't let the first answer win
 
-For me the thread worth pulling on is a smaller question, one I recognise from my own practice: anyone can ask for "a generative poster that feels unsettling." What does it take to actually get one — and is that skill programming, design, or something new?
+The first stage looks like the easiest, and the trick is that AI's *first* answer is the most dangerous one — not because it is bad, but because it is too plausible. You ask a vague question, it gives you a confident cluster of options, and you pick the one you like best. By the time you do, you have stopped thinking.
 
-My answer: it's something new, but something made out of the other two. It is the ability to hold programming experience and design experience in the same head and let them correct each other — an independent understanding that neither discipline produces on its own. I couldn't have written that sentence a year ago. I learned it from watching how my own work actually gets made.
+I learned this at the start of a VR game I was prototyping. I asked an AI to brainstorm; it produced a long list. I picked one that was *fine* — and not my own. When I asked it to push that idea deeper, the other ideas vanished. I closed the AI and wrote a draft outline by hand, from what I already knew about 3D games. I gave both outlines — labels stripped — to my teacher and several classmates, asking only which they would rather play. They picked mine. A few pieces in the final version came out of that earlier conversation, but the *combination* was mine — and that combination, not the fragments, is what they preferred.
 
-## Three stages, one gap
+The danger is not the AI's ideas but how naturally it agrees with you. Watch for the moment it stops offering alternatives — you have probably already lost something.
 
-Almost everything I make with AI — small practical products, art pieces — decomposes the same way: finding inspiration, refining it, producing the finished thing. Inspiration is taste doing its quiet work: references, half-images, a pull toward something not yet nameable. Production is patience: packaging, edge cases, shipping. Neither stage is where a programming course lives.
+## Refining into structure: the project is the gaps
 
-The interesting stage is refinement, and it is exactly the gap between describing and specifying.
+Once the core idea is firm, the next stage is structural. Modern AI tools are good at this — give them a clear goal and they will plan their own task lists. The *core* steps are usually right (scaffolding an HTML site, setting up a game asset library); the rest is usually missing.
 
-Earlier this year I built a generative piece with an AI assistant: shapes drifting across a browser canvas. My prompt asked for something "organic and unsettling." What came back was a lava lamp — smooth blobs, a purple gradient, a screensaver. It wasn't wrong. It was nobody's: the average of every "unsettling" ever requested.
+What the plan misses, in my experience, are the *small* things: lower-priority features whose absence won't kill v1 but quietly shapes the final experience. Manovich's argument that the twentieth-century avant-garde became software, that previous decades of design now live as our tools' defaults (Manovich, 2001), is why these gaps matter: the defaults encode assumptions about what a project is for, and you cannot see what you cannot name.
 
-The turn came when I could say *why* it was nobody's. The motion was too smooth, because nothing organic moves at constant velocity. The palette was pleasant, when I wanted it slightly sick. The shapes had only group behaviour, no individual life. Those are design judgements — I could not have made them without a trained eye. But each one only became *fixable* through programming knowledge: the smoothness was an easing function; "slightly sick" meant shifting a hue rotation by a specific amount; individual life meant giving each shape its own noise seed instead of a shared one. The request that finally produced something I wanted was not a sentence a designer alone, or a programmer alone, could have written. It took both, at once, in real time.
+The skill you need is project management — noticing what the planner missed, deciding which gap goes in which version, and how the timeline folds together. For every non-trivial project I have shipped — the VR game, a museum installation, a few e-commerce builds — the core trajectory was mine. The AI gave me a first draft of the plan; the rest — what each version optimises, what each milestone produces, what proves each step worked — is the work I did.
 
-That is the skill. Not writing code, and not having taste — running the loop between them: see the output, judge it aesthetically, specify the fix mechanically, repeat.
+## Producing: the trap called "it passed the test"
 
-## What each side contributes
+Production should be the safest stage. The blueprint is set, the AI executes against it, and you check the result. The most important capability is also the simplest in words: you have to be able to *read what the AI wrote* well enough to know whether it does what it claims.
 
-Programming gives you the material. Don Ihde's argument that technologies are never neutral — that they shape what their users perceive as possible (Ihde, 1990) — has a sharp edge here: a generative system's possibility space is enormous, but a prompt can only navigate it if you know its coordinates. If you don't know that seeds, easing functions, and hue rotation exist, you can't ask for them, and the defaults become invisible walls that look like the whole world.
+I once built, with an AI, a tool for renaming messy product names into a tidy format for a phone-case e-commerce business. I gave it my test cases; it worked perfectly, so I trusted it. The first time I pointed it at a real export, it produced total chaos — and worse, had written back over my original file with no backup. I had to ask a colleague for a fresh copy.
 
-Design gives you the target. You cannot specify what you cannot discriminate. The lava lamp looked fine until I could see exactly how it failed — and that seeing is trained, not given.
+The bug was obvious in retrospect. The renaming logic only handled the common name formats; several rare formats I had left out of the test set produced identical output names, so different products collided. There was no backup branch either. Neither problem would have shown up in any test I would have written, because I do not know enough about that part of the stack to imagine them. The lesson was not to write better tests — it was that, without the ability to read the code, no test I design will catch what I cannot imagine.
 
-Lev Manovich argues that the twentieth-century avant-garde didn't die; it became software, its experiments compiled into the default settings of our tools (Manovich, 2001). If that's true, the defaults literally encode design history, and escaping them takes someone who can both read what is encoded and imagine what isn't. Ada Lovelace saw past the Analytical Engine's stated purpose to what it could become (Lovelace, 1842); Dylan Beattie's delight in code as a *human* language — written to be read, punned in, played with (Beattie, 2019) — points the same way: code is a medium for thought, not just a means of production. The new skill is thinking in that medium without letting it do your thinking for you.
+## How to build it
 
-## So why I'm here
+So the skill running through all three stages — the one that tells you when to ignore AI's first idea, when its plan is missing something, and when its "it works" is not actually "it works" — is independent thinking. The same skill in different clothes.
 
-I watch my friends split cleanly. The designers who won't touch code keep receiving defaults, executed professionally. The programmers who don't make things keep shipping technically correct mediocrity. Both are competent; both are replaceable by exactly the systems this course teaches us to use.
+How is it built? That is what I think this course is for. I am not here to learn an obsolete syntax. I am here to learn the fundamentals — technical, design, creative — and keep adding to them every day, so that the tree of my thinking grows enough branches to drive the machine rather than be carried by it. Don Ihde's observation that technologies are never neutral (Ihde, 1990) has a practical edge here: a tool you cannot read is a tool that decides for you.
 
-The syntax I learn this semester will probably be obsolete by the middle of my career, and I'm at peace with that. What I'm actually here to build is the refinement loop — the judgement plus the mechanism, held together. The machine will write the program. It will not notice that the motion is too smooth, or that the green is slightly sick. Noticing that, and knowing what to ask for next, is still a job.
+The machine gets more capable every six months. The only durable answer, for someone who wants to make things worth making, is to keep getting more capable yourself, in the parts the machine cannot hand you. That is the part only you can hold.
 
 ---
 
