@@ -1,36 +1,36 @@
-# Coverage Is Not a Shot
+# Nobody's Screensaver
 
-*Why a director enrolled in a programming course in 2026*
+*On the skill between describing and specifying*
 
-I direct films, and this year I started letting machines write my code. Small things: a script that renames a day's rushes, a page for a short's festival submissions, a tool that rips timestamps out of subtitle files. Each time, I typed a sentence of English and working code came back — usually on the second or third try. So when I enrolled in a programming course for designers and artists, a reasonable person could ask the question this essay has to answer: why? If the machine writes the code, what am I actually learning?
+Anyone can ask for "a generative poster that feels unsettling." The question I want to answer is what it takes to actually get one — whether that skill is programming, design, or something new.
 
-My answer: I'm learning the difference between *describing* and *specifying* — and I think directing has been training me for that distinction longer than I realised.
+My answer: it's something new, but something made out of the other two. It is the ability to hold programming experience and design experience in the same head and let them correct each other — an independent understanding that neither discipline produces on its own. I couldn't have written that sentence a year ago. I learned it from watching how my own work actually gets made.
 
-## A film set is a prompt-engineering workshop
+## Three stages, one gap
 
-Here is the strange thing about my job: a director barely touches anything. The camera has an operator, the light has a gaffer, the edit has an editor. The director's raw material is the instruction — thousands of them, translated from a feeling into technical language, all day, every day. Sidney Lumet describes directing as exactly this: a continuous conversion of intention into concrete, decidable choices (Lumet, 1995).
+Almost everything I make with AI — small practical products, art pieces — decomposes the same way: finding inspiration, refining it, producing the finished thing. Inspiration is taste doing its quiet work: references, half-images, a pull toward something not yet nameable. Production is patience: packaging, edge cases, shipping. Neither stage is where a programming course lives.
 
-Last spring I was directing a short — a two-hander in a kitchen, a couple quietly ending. My note to the cinematographer was "make it lonelier." He nodded and gave me the standard grammar of loneliness: longer lens, tighter frame, cooler grade. It was professional and completely generic — lonely the way stock music is sad. What I had in my head was something else: a wide, static frame, her small in the corner, the room refusing to help her. I couldn't specify it in time, so I got the default, executed well. The scene is fine. Nobody remembers it.
+The interesting stage is refinement, and it is exactly the gap between describing and specifying.
 
-That is what failure to specify costs. Not catastrophe — competence. The default, delivered professionally.
+Earlier this year I built a generative piece with an AI assistant: shapes drifting across a browser canvas. My prompt asked for something "organic and unsettling." What came back was a lava lamp — smooth blobs, a purple gradient, a screensaver. It wasn't wrong. It was nobody's: the average of every "unsettling" ever requested.
 
-## Defaults all the way down
+The turn came when I could say *why* it was nobody's. The motion was too smooth, because nothing organic moves at constant velocity. The palette was pleasant, when I wanted it slightly sick. The shapes had only group behaviour, no individual life. Those are design judgements — I could not have made them without a trained eye. But each one only became *fixable* through programming knowledge: the smoothness was an easing function; "slightly sick" meant shifting a hue rotation by a specific amount; individual life meant giving each shape its own noise seed instead of a shared one. The request that finally produced something I wanted was not a sentence a designer alone, or a programmer alone, could have written. It took both, at once, in real time.
 
-The machine that writes my code has defaults too, and they are stronger than any cinematographer's habits, because they are the average of everything ever written. Ask for "a generative poster that feels unsettling" and you receive unsettling *in general*: the grain, the glitch, the red. The difference is that a good cinematographer will ask a question back — "lonelier how? for her, or for him?" — while the model simply delivers. It executes my vagueness with total confidence, and the gap between what I said and what I meant becomes invisible unless I can see it in the output.
+That is the skill. Not writing code, and not having taste — running the loop between them: see the output, judge it aesthetically, specify the fix mechanically, repeat.
 
-This is why I don't buy the framing where AI is "a new intern." An intern learns your taste. A model has its own, and it will use it every time I fail to override it with something precise. Don Ihde's argument that technologies are never neutral — that they shape what their users perceive as possible (Ihde, 1990) — cuts both ways here: the model's defaults quietly become my aesthetic if I don't have the vocabulary to argue with them.
+## What each side contributes
 
-## Reading is the other half
+Programming gives you the material. Don Ihde's argument that technologies are never neutral — that they shape what their users perceive as possible (Ihde, 1990) — has a sharp edge here: a generative system's possibility space is enormous, but a prompt can only navigate it if you know its coordinates. If you don't know that seeds, easing functions, and hue rotation exist, you can't ask for them, and the defaults become invisible walls that look like the whole world.
 
-I can roughly read the code that comes back to me, and that turns out to matter more than I expected. A director who can't load film can still tell the frame is wrong. Someone has to stand behind the machine and know whether what it wrote is any good — whether the script that renamed my rushes also quietly dropped three files. On a film set we'd call that quality control, and it is the difference between coverage and a shot.
+Design gives you the target. You cannot specify what you cannot discriminate. The lava lamp looked fine until I could see exactly how it failed — and that seeing is trained, not given.
 
-Lev Manovich argues that the twentieth-century avant-garde didn't die — it became software: montage, split screen, and collage now live in the default settings of every editing application (Manovich, 2001). If my medium's history has already been compiled into tools, then a director who can't read software can't fully read their own medium, or its future.
+Lev Manovich argues that the twentieth-century avant-garde didn't die; it became software, its experiments compiled into the default settings of our tools (Manovich, 2001). If that's true, the defaults literally encode design history, and escaping them takes someone who can both read what is encoded and imagine what isn't. Ada Lovelace saw past the Analytical Engine's stated purpose to what it could become (Lovelace, 1842); Dylan Beattie's delight in code as a *human* language — written to be read, punned in, played with (Beattie, 2019) — points the same way: code is a medium for thought, not just a means of production. The new skill is thinking in that medium without letting it do your thinking for you.
 
-## The uncomfortable version
+## So why I'm here
 
-Probably true: most of the syntax I learn this semester will be obsolete by the middle of my career, the way mid-career photographers watched darkrooms vanish. Photography didn't end painting; it ended portrait miniatures and freed painting to become Impressionism. Synthesisers didn't end musicianship; they ended some session work. What survived each time was not the technique but the person who understood the material deeply enough to bend it — which is Ihde again, and also Ada Lovelace, who saw past the Analytical Engine's stated purpose to what it could become (Lovelace, 1842). Dylan Beattie argues that code is an expressive medium, not a technical chore (Beattie, 2019); what stays with me is his delight in code as a *human* language — written to be read, punned in, played with. Turning a vague want into an exact one is my job description, slightly rewritten.
+I watch my friends split cleanly. The designers who won't touch code keep receiving defaults, executed professionally. The programmers who don't make things keep shipping technically correct mediocrity. Both are competent; both are replaceable by exactly the systems this course teaches us to use.
 
-So no, I'm not here to become an engineer. I'm here because the newest member of my crew speaks code, and I don't want to direct through a translator. The machine will write the program. It will not know what's missing from the frame. That is still a job, and it is mine.
+The syntax I learn this semester will probably be obsolete by the middle of my career, and I'm at peace with that. What I'm actually here to build is the refinement loop — the judgement plus the mechanism, held together. The machine will write the program. It will not notice that the motion is too smooth, or that the green is slightly sick. Noticing that, and knowing what to ask for next, is still a job.
 
 ---
 
@@ -41,7 +41,5 @@ Beattie, D. (2019). *The art of code* [Video]. YouTube. https://www.youtube.com/
 Ihde, D. (1990). *Technology and the lifeworld: From garden to earth*. Indiana University Press.
 
 Lovelace, A. A. (1842). Notes by the translator upon L. F. Menabrea's "Sketch of the Analytical Engine invented by Charles Babbage". *Scientific Memoirs, 3*. https://www.fourmilab.ch/babbage/sketch.html
-
-Lumet, S. (1995). *Making movies*. Alfred A. Knopf.
 
 Manovich, L. (2001). *The language of new media*. MIT Press.
