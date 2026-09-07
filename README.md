@@ -2,7 +2,13 @@
 
 *On the skill between describing and specifying*
 
-Anyone can ask for "a generative poster that feels unsettling." The question I want to answer is what it takes to actually get one — whether that skill is programming, design, or something new.
+## Why are we here?
+
+Stated bluntly, the question this essay has to answer is: I make things — practical tools, art pieces — and I have enrolled in a programming course in the year 2026, when systems write working code from a single sentence of English and get better at it roughly every six months. What exactly do I think I am learning?
+
+The polite answers feel thin. "Programming teaches you to think" — so did art school. "Someone has to fix what the machine gets wrong" — the machine gets things wrong less often every semester. A defensive case for this course would be easy to write and worth nothing. I don't want to defend the course. I want to describe, as honestly as I can, what I think survives.
+
+For me the thread worth pulling on is a smaller question, one I recognise from my own practice: anyone can ask for "a generative poster that feels unsettling." What does it take to actually get one — and is that skill programming, design, or something new?
 
 My answer: it's something new, but something made out of the other two. It is the ability to hold programming experience and design experience in the same head and let them correct each other — an independent understanding that neither discipline produces on its own. I couldn't have written that sentence a year ago. I learned it from watching how my own work actually gets made.
 
