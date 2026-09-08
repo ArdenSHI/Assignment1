@@ -10,7 +10,7 @@ Across the four drafts of this essay, I asked the AI to do four different jobs, 
 
 **Draft 3 (Sept 8, morning).** I told the AI to (a) keep the three-stage structure exactly — finding inspiration, refining inspiration into a structure, producing the finished product, plus a short closing on how the ability is built — (b) keep all four concrete cases intact, (c) strip every emotional adjective and ornamental flourish ("bluntly," "genuinely," "after all," rhetorical dramatic closings), and (d) reformat the references as ACM numbered citations. The AI did the pass; I trimmed the draft by hand to land exactly on 1000 words.
 
-**Draft 4 (Sept 8, later the same day).** I told the AI to (a) shrink the opening to two short paragraphs, (b) expand the three stage-sections with more concrete detail from the same four projects, (c) reformat the references back to APA (the original style for this course), and (d) keep the total under 1000 words. The AI's draft came in over the limit; I trimmed it back to 1000 words by cutting redundant phrases, not by removing cases or examples.
+**Draft 4 (Sept 8, later the same day).** I told the AI to (a) shrink the opening to two short paragraphs, (b) expand the three stage-sections with more concrete detail from the same four projects, and (c) keep the total under 1000 words. The AI's draft came in over the limit; I trimmed it back to 1000 words by cutting redundant phrases, not by removing cases or examples.
 
 ## What the AI did that I kept
 
