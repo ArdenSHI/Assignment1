@@ -2,7 +2,7 @@
 
 *On independent thinking across three stages of making a work.*
 
-The question, bluntly: I make things — products, art pieces, installations — and I have enrolled in a programming course in 2026, when systems write working code from a sentence of English and get better every six months. The polite answers feel thin. I don't want to defend the course; I want to describe what survives.
+The question, bluntly: I make things — products, art pieces, installations — and I have enrolled the programming course in 2026, when systems write working code from a sentence of English and get better every six months. The polite answers feel thin. I don't want to defend the course; I want to describe what survives.
 
 For me, the thread worth pulling on is this: to make something genuinely worth making, you need the understanding that only forms when programming experience and design experience meet in the same person and produce their own thing. Almost everything I make with AI follows three stages — finding inspiration, refining it into a structure, producing the finished thing — and underneath each, it is the same: independent thinking, the part the machine cannot do for you.
 
