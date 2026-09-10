@@ -36,4 +36,4 @@ Across the four drafts of this essay, I asked the AI to do four different jobs, 
 
 ## A note on the writing itself
 
-Parts of the essay are word-for-word what I wrote in Chinese; parts are the AI's English polished from what I wrote; a handful of sentences are the AI's tighter version of a thought I had written at three times the length. The cases, the structure, and the judgements in the essay are mine. The English is the AI's.
+The main parts of the essay are word-for-word what I wrote in Chinese; parts are the AI's English polished from what I wrote; a handful of sentences are the AI's tighter version of a thought I had written at three times the length. The cases, the structure, and the judgements in the essay are mine. The English is the AI's.
