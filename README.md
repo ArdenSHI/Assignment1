@@ -2,7 +2,7 @@
 
 *Independent thinking across three stages of making a work*
 
-In 2026, I make things with AI — tools, art projects, installations — and enrolled in a programming course. A system writes working code from a sentence and gets better every six months. This essay is not a defence of the course; it is a description of what I think survives.
+In 2026, I make things with AI — tools, art projects, installations — and enrolled in the programming course. A system writes working code from a sentence and gets better every six months. This essay is not a defence of the course; it is a description of what I think survives.
 
 To make something worth making, you need an understanding that only forms when programming experience and design experience meet in the same person and produce their own thing. Most of my projects follow three stages: finding inspiration, refining inspiration into a structure, producing the finished product. Each stage calls for different sub-skills, but they all belong to independent thinking. I will walk through the three stages using projects I have actually run, then close on how this ability is built.
 
